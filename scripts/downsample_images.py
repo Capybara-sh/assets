@@ -85,7 +85,7 @@ if __name__ == "__main__":
     imgs_dir = os.path.join(base_dir, "imgs")
     
     # Destination directory (img_tiny)
-    img_tiny_dir = os.path.join(base_dir, "img_tiny")
+    img_tiny_dir = os.path.join(base_dir, "imgs_tiny")
     
     print(f"Downsampling images from {imgs_dir} to {img_tiny_dir}")
     process_directory(imgs_dir, img_tiny_dir) 
